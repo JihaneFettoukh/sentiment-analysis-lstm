@@ -11,7 +11,7 @@ st.title("📝 Text Sentiment Analysis")
 st.write("Enter any text and get its sentiment prediction.")
 
 # Zone de texte
-review = st.text_area("✍️ Enter your text here", height=150)
+review = st.text_area("✍️ Enter your text here :", height=150)
 
 
 # Bouton de prédiction
