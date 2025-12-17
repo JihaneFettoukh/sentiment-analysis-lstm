@@ -1,13 +1,14 @@
 
-
 services:
   api:
     image: jihanefettoukh/sentiment-api
+    build: ./api
     ports:
       - "8000:8000"
 
   streamlit:
     image: jihanefettoukh/sentiment-streamlit
+    build: ./streamlit_app
     ports:
       - "8501:8501"
     depends_on:
